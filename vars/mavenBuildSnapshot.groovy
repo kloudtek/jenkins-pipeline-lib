@@ -3,4 +3,5 @@ def call(Map<String,String> params) {
     if( mvnCmd == null ) {
         mvnCmd = "-Dmaven.test.failure.ignore clean package"
     }
+    echo "Building maven snapshot"
 }
